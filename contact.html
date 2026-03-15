@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact - HackathonCorp</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+  <body class="page-contact">
+    <div
+      id="top-bar"
+      class="sticky top-0 z-50 flex items-center justify-between px-8 py-4 reveal reveal-1"
+    >
+      <a href="index.html" class="flex items-center">
+        <img src="./images/logo.png" alt="HackathonCorp Logo" class="h-10 w-auto" />
+      </a>
+
+      <ul class="nav flex gap-8 text-sm font-medium text-gray-300">
+        <li><a class="transition hover:text-white" href="index.html">Home</a></li>
+        <li><a class="transition hover:text-white" href="about.html">About</a></li>
+        <li><a class="transition hover:text-white" href="services.html">Upcoming Events</a></li>
+        <li><a class="transition hover:text-white" href="clients.html">Artists</a></li>
+        <li><a class="transition hover:text-white" href="contact.html">Contact Form</a></li>
+        <li><a class="transition hover:text-white" href="blank.html">Join Us</a></li>
+      </ul>
+    </div>
+
+    <main class="max-w-6xl mx-auto px-6 py-16">
+      <h1 class="reveal reveal-2">Contact HackathonCorp</h1>
+
+      <p class="reveal reveal-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante
+        ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+        Integer lacinia rhoncus tortor, id porttitor arcu tincidunt eu.
+      </p>
+
+      <form class="home-form reveal reveal-4">
+        <p>
+          <label>
+            Your name:
+            <input type="text" name="name" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Company:
+            <input type="text" name="company" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Work email:
+            <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Message:
+            <textarea name="message" rows="5"></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send message to HackathonCorp</button>
+        </p>
+      </form>
+
+      <div class="page-image page-image--contact reveal reveal-5">
+        <img
+          src="https://thumbs.dreamstime.com/b/black-guy-showing-white-empty-smartphone-screen-closeup-great-offer-portrait-excited-man-standing-outdoors-holding-big-phone-345709111.jpg"
+          alt="HackathonCorp contact phone placeholder image"
+        />
+      </div>
+
+      <p id="footer-text" class="reveal reveal-6">
+        © 2026 HackathonCorp. Truly a challenge, made sorta with love.
+      </p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
