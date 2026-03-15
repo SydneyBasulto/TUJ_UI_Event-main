@@ -55,7 +55,7 @@ Framework Used:
 ### Option 1: Run with Live Server (Recommended)
 
 1. Download or clone the repository: 
-git clone https://github.com/SydneyBasulto/tuj-ui-hackathon-2026
+git clone https://github.com/SydneyBasulto/TUJ_UI_Event-main
 
 or download the ZIP from GitHub and extract it.
 
