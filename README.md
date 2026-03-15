@@ -1,7 +1,7 @@
-# HackathonCorp – TUJ UI/UX Hackathon 2026
+# amplify – TUJ UI/UX Hackathon 2026
 
 ## Overview
-HackathonCorp is a redesigned live music discovery platform created during the **Temple University Japan Spring 2026 UI/UX Hackathon**.
+amplify is a redesigned live music discovery platform created during the **Temple University Japan Spring 2026 UI/UX Hackathon**.
 
 The goal of the project was to transform a provided static HTML page into a modern, user-friendly experience using **CSS and JavaScript enhancements** while keeping the original HTML structure unchanged.
 
